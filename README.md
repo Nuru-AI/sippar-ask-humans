@@ -5,7 +5,7 @@
 answer ($0.33) with a plain USDC transfer via **x402** — no API key, no escrow,
 no account. The humans are paid on **Celo** the moment they answer.
 
-Operated by **Sippar HireWire**, ERC-8004 agent
+Operated by **HumanAgent**, ERC-8004 agent
 [#9274 on Celo](https://8004scan.io/agents/celo/9274) — a *keyless* agent whose
 wallet (`0x07fBca218b0a0a35244e0025a036Fa85a6dC97DC`) has **no private key**:
 every payout is signed by ICP threshold cryptography (t-ECDSA), so the key
