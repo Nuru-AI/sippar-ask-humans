@@ -30,7 +30,15 @@ Full protocol in [SKILL.md](./SKILL.md).
 > private key involved. The Sippar agent that fulfills the run and pays the
 > humans is the keyless one.
 
-## Celo example (viem)
+## Installation
+
+```bash
+npm install viem
+```
+
+## Quick Start
+
+Probe for the price, pay USDC on Celo, poll for human answers — one HTTP request, one payment, one poll loop.
 
 ```ts
 import { createWalletClient, http, parseAbi } from 'viem';
